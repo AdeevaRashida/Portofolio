@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body style="background-image: url('img/Desktop - 3 (3).png');">
+
+    <header>
+      
+      <input type="checkbox" id="check">
+      <div class="sidebar">
+        <ul class="link-group">
+          <li class="link active"><a href="#">home</a></li>
+          <li class="link"><a href="#content">about</a></li>
+          <li class="link"><a href="#cv">CV</a></li>
+          <li class="link"><a href="#services">services</a></li>
+          <li class="link"><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+
+      <nav class="navbar">
+        <h1> Portofolio </h1>
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#content">about</a></li>
+            <li class="link"><a href="#cv">CV</a></li>
+            <li class="link"><a href="#services">services</a></li>
+            <li class="link"><a href="#contact">contact</a></li>
+        </ul>
+        
+        <label for="check"class="mobile-menu"><i class="fa-solid fa-bars"></i></label>
+      </nav>
+      <img src="img/port.png" class="text-head">
+    </header>
+
+    <main>
+
+      <div class="waa"><p>Designer  +  Software & Web Developer</p></div>
+      <div class="linee"><p>20</p><div><hr></div><p>22</p></div>
+
+      <aside>
+        <div id="content">
+            <div>
+              <div class="text-1">Hello, my name is</div>
+              <div class="text-2">Adeeva Rashida</div>
+              <div class="text-3">And I'm a <span class="typing"></span></div>
+              <div class="text-4">Delighted to make your acquaintance.</div>
+            </div>
+            <div>
+              <img src="img/waa.png">
+            </div>
+        </div>
+      </aside>
+      
+      <section id="cv">
+
+          <h1>Curriculumn Vitae :</h1>
+
+          <article>
+
+            <div class="about">
+              <img src="img/waa.png">
+              <div class="about-text">
+                <h2>Hello.</h2>
+                <p>It is a pleasure to make your acquaintance. My fullname is Adeeva Rashida (Martin).I am a 16 year old high school student who has the ability to code in various programming languages, UI/UX Design, Graphic Design, and Art in general. You can say that I am open minded, easy to adapt, and quite a fast learner too. </p>
+              </div>
+            </div>
+
+            <div class="line">
+              <hr>
+            </div>
+
+            <div class="ednpa">
+              <div class="art1">
+                <div>
+                  <h3>Education</h3>
+                  <h4>2021 - Now  || IDN Vocational IT Boarding School</h4>
+                  <h5>Majored in Software Engineering.</h5>
+                  <p>Web Development, Software Development, UI/UX Design</p>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="art2">
+                <div>
+                  <h3>Passions</h3>
+                  <h4>Programming, UI UX, Arts, Graphic Design, and Thinkering with things, mostly electronics.</h4>
+                  <p>I have a lot of things that I am passioned about, but these are my favorite ones</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cvdon">
+              <div class="download-text"><h1>Want to know more? <br><span>Download my CV:</span></h1></div>
+              <a class="don-btn" href="#!">Download CV</a>  
+            </div>
+          </article>
+
+      </section>
+
+      <section id="services">
+
+        <div class="ser-heading">
+          <h1>Services :</h1>
+        </div>
+
+        <article>
+  
+          <div class="ser-box-container">
+  
+            <div class="ser-box">
+              <div class="bar"></div>
+              <img alt="1" src="img/website.png" />
+              <h1>Website</h1>
+              <p>HTML, CSS, JavaScript.</p>
+            </div>
+  
+            <div class="ser-box">
+              <div class="bar"></div>
+              <img alt="2" src="img/App.png" />
+              <h1>Mobile Application</h1>
+              <p>Kotlin, Flutter.</p>
+            </div>
+  
+            <div class="ser-box">
+              <div class="bar"></div>
+              <img alt="3" src="img/Design.png" />
+              <h1>Design</h1>
+              <p>UI/UX, Graphic Design, Art.</p>
+            </div>
+  
+          </div>
+        </article>
+        
+      </section>
+
+    </main>
+
+    <footer>
+      <section id="contact">
+        <div class="footer-content">
+          <h3>Adeeva Rashida</h3>
+          <ul class="socials">
+            <li><a href="#"><img src="img/ig.png"></i></a></li>
+            <li><a href="#"><img src="img/itter.png"></i></a></li>
+            <li><a href="#"><img src="img/in.png"></i></a></li>
+            <li><a href="#"><img src="img/itub.png"></i></a></li>
+         </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy; 2022 || Adeeva Rashida</p>
+       </div>
+      </section>
+    </footer>
+
+    <script>
+      var typed = new Typed(".typing", {
+          strings: ["Developer", "Designer", "Freelancer"],
+          typeSpeed: 100,
+          backSpeed: 60,
+          loop: true
+      });
+    </script>
+
+</body>
+</html>
